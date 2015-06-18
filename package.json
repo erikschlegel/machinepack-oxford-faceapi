@@ -1,0 +1,28 @@
+{
+  "name": "machinepack-oxford-faceapi",
+  "version": "0.1.0",
+  "description": "Works with project oxford to detect human faces in image ",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "machinepack-microsoft-oxford-faceapi",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^9.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.0.0"
+  },
+  "machinepack": {
+    "friendlyName": "machinepack-oxford-faceapi",
+    "machineDir": "machines/",
+    "machines": [
+      "find-similar-faces"
+    ]
+  }
+}

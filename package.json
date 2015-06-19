@@ -22,7 +22,8 @@
     "friendlyName": "machinepack-oxford-faceapi",
     "machineDir": "machines/",
     "machines": [
-      "find-similar-faces"
+      "find-similar-faces",
+      "detect-new-face"
     ]
   }
 }
